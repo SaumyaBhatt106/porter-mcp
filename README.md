@@ -39,7 +39,7 @@ It exposes STD I/O as well as SSE endpoints so that it can be integrated with an
 }
 ```
 - Restart the claude desktop app and tools should be visible
-- ![img.png](img.png)
+- ![img.png](./media/img.png)
 ---
 
 ## Tools Exposed
