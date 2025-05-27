@@ -8,9 +8,9 @@ object ApplicationConfigs {
       ?: throw IllegalStateException("LOCATION_IQ_API_KEY environment variable is not set")
   }
 
-  object Pfe {
+  object Porter {
     const val BASE_URL = "https://pfe-apigw-uat.porter.in"
-    val API_KEY: String = System.getenv("PFE_API_KEY")
-      ?: throw IllegalStateException("PFE_API_KEY environment variable is not set")
+    val API_KEY: String = System.getenv("PORTER_API_KEY")
+      ?: throw IllegalStateException("PORTER_API_KEY environment variable is not set")
   }
 }
