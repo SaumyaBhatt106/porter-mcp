@@ -1,4 +1,4 @@
-# PorterMCP Server
+# [POC] PorterMCP Server
 
 MCP server for Porter, that can be integrated with any MCP client or used in Any AI Agent to interact with Porter's services.
 
@@ -9,7 +9,7 @@ It exposes STD I/O as well as SSE endpoints so that it can be integrated with an
 ### Prerequisites
 - Java 17 or higher
 - Create an account on [LocationsIQ](https://locationiq.com/) and generate an API Key (this is used for geocoding)
-- Get the PFE API Key from Porter (this is used to fetch quotes)
+- Get the Porter API Key from Porter (this is used to fetch quotes)
 
 ### Testing the server
 - Set the environment variables `LOCATION_IQ_API_KEY` and `PFE_API_KEY` with your respective API keys.
