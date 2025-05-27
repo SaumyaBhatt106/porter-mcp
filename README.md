@@ -32,7 +32,7 @@ It exposes STD I/O as well as SSE endpoints so that it can be integrated with an
       ],
       "env": {
         "LOCATION_IQ_API_KEY": "xxxxx",
-        "PFE_API_KEY": "xxxxx"
+        "PORTER_API_KEY": "xxxxx"
       }
     }
   }
