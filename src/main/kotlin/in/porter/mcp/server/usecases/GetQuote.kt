@@ -20,7 +20,7 @@ suspend fun HttpClient.getQuote(
   countryCode: String,
   phoneNumber: String
 ): List<String> {
-  val url = "${ApplicationConfigs.Pfe.BASE_URL}/v1/get_quote"
+  val url = "${ApplicationConfigs.Porter.BASE_URL}/v1/get_quote"
 
   val requestBody = GetQuoteRequest(
     pickupDetails = LatLng(pickupLat, pickupLng),
@@ -38,7 +38,7 @@ suspend fun HttpClient.getQuote(
     this.url(url)
     this.method = HttpMethod.Post
     this.headers {
-      append("X-API-KEY", ApplicationConfigs.Pfe.API_KEY)
+      append("X-API-KEY", ApplicationConfigs.Porter.API_KEY)
     }
   }.body<GetQuoteResponse>()
 
